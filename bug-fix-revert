@@ -1,0 +1,28 @@
+curl -s https://api.github.com/repos/Dar-shan26/git-final-project-/pulls?state=all
+
+[
+  {
+    "url": "https://api.github.com/repos/Dar-shan26/git-final-project-/pulls/1",
+    "id": 1234567890,
+    "number": 1,
+    "state": "closed",
+    "title": "Revert bug fix typo",
+    "user": {
+      "login": "Dar-shan26",
+      "id": 12345678
+    },
+    "body": "Reverting changes from bug-fix-typo branch",
+    "merged_at": "2026-07-23T20:00:00Z",
+    "head": {
+      "label": "Dar-shan26:bug-fix-revert",
+      "ref": "bug-fix-revert",
+      "repo": {
+        "full_name": "Dar-shan26/git-final-project-"
+      }
+    },
+    "base": {
+      "label": "Dar-shan26:main",
+      "ref": "main"
+    }
+  }
+]
